@@ -56,10 +56,4 @@ jobs:
           path: |
             target/surefire-reports/
             target/site/jacoco/
-          retention-days always()
-        with:
-          name: reporte-pruebas-y-cobertura
-          path: |
-            target/surefire-reports/
-            target/site/jacoco/
           retention-days: 7
